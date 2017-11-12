@@ -6,3 +6,4 @@
 #### [car - обход периметра](https://github.com/tokelau/mobile_robots/tree/master/car)
 #### [python1 - управление цветом](https://github.com/tokelau/mobile_robots/tree/master/python1)
 #### [python - управление освещением (5 уровней)](https://github.com/tokelau/mobile_robots/tree/master/python)
+#### [calibration - калибровка датчиков освещния](https://github.com/tokelau/mobile_robots/tree/master/calibration)
