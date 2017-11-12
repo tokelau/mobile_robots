@@ -45,6 +45,7 @@ def plot_update():
 	a2 = anim.FuncAnimation(fig2, update2, repeat=False)
 	plt.show()
 
+#чертит калибровочную функцию
 def plot_calibrate():
 	plt.plot(correct)
 	plt.show()
