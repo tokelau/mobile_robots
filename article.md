@@ -7,3 +7,4 @@
 ..- 
 ## Software
 ## Схема
+![Здесь должна быть картинка](https://github.com/tokelau/mobile_robots/blob/master/scheme.png)
