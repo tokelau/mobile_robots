@@ -19,7 +19,7 @@
 * дешифратор 3 на 8 КР1533ИД3
 * пластиковый корпус
 
-                ![Фото с деталями](https://github.com/tokelau/mobile_robots/blob/master/details.jpg)
+![Фото с деталями](https://github.com/tokelau/mobile_robots/blob/master/details.jpg)
 
 ## Software
 ## Схема
