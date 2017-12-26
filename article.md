@@ -17,6 +17,7 @@
 * сдвиговый регистр 74HC595 (x2)
 * дешифратор 3 на 8 КР1533ИД3
 * пластиковый корпус
+![Фото с деталями](https://github.com/tokelau/mobile_robots/blob/master/details.jpg)
 ## Software
 ## Схема
 ![Здесь должна быть схема](https://github.com/tokelau/mobile_robots/blob/master/scheme.png)
