@@ -1,10 +1,8 @@
-#define GREEN  11
+#define GREEN 11
 #define RED 10
 #define BLUE 9
 #define PR A1
 
-bool ledOn(), first(), second(), thrid(), fourth(), fifth();
-bool ledOff();
 String s_byte = "";
 int result;
 
@@ -55,43 +53,43 @@ void loop(){
   }
 }
 
-bool ledOn(){
+void ledOn(){
   analogWrite(RED, 0);
   analogWrite(GREEN, 0);
   analogWrite(BLUE, 0);
 }
 
-bool first(){
+void first(){
   analogWrite(RED, 255 - 63.75*4);
   analogWrite(GREEN, 255 - 63.75*4);
   analogWrite(BLUE, 255 - 63.75*4);
 }
 
-bool second(){
+void second(){
   analogWrite(RED, 255 - 63.75*3);
   analogWrite(GREEN, 255 - 63.75*3);
   analogWrite(BLUE, 255 - 63.75*3);
 }
 
-bool thrid(){
+void thrid(){
   analogWrite(RED, 255 - 63.75*2);
   analogWrite(GREEN, 255 - 63.75*2);
   analogWrite(BLUE, 255 - 63.75*2);
 }
 
-bool fourth(){
+void fourth(){
   analogWrite(RED, 255 - 63.75);
   analogWrite(GREEN, 255 - 63.75);
   analogWrite(BLUE, 255 - 63.75);
 }
 
-bool fifth(){
+void fifth(){
   analogWrite(RED, 255);
   analogWrite(GREEN, 255);
   analogWrite(BLUE, 255);
 }
 
-bool ledOff(){
+void ledOff(){
   analogWrite(RED, 255);
   analogWrite(GREEN, 255);
   analogWrite(BLUE, 255);
