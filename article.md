@@ -50,6 +50,13 @@ void setup() {
   RTC.write(te);
 }
 ```
+Теперь мы можем считывать время с модуля:
+```c++
+RTC.read(te);
+int second = te.Second;
+int minute = te.Minute;
+int hour = te.Hour;
+```
 
 Далее функция, которая подсвечивает светодиоды, в зависимости от полученно байта:
 ```c++
