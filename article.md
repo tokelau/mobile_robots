@@ -25,13 +25,20 @@
 Для разработки прошивки мы использовали Arduino IDE. Здесь нам нужно было выполнить две основные задачи: научиться получать время с модуля часов и кодировать его в маску, понятную регистру. Скорость передачи данных мы выставили 57600, так как модуль времени работает именно с такой скоростью.
 Код для установки времени (запускается один раз): 
 ```c++
-te.Hour = 18;
-te.Minute = 50;
-te.Second = 0;
-te.Day = 20; 
-te.Month = 4; 
-te.Year = CalendarYrToTm(2016); 
-RTC.write(te);
+#include <DS1307RTC.h>
+
+tmElements_t te;
+
+void setup() {
+  Serial.begin(57600);
+  te.Hour = 18;
+  te.Minute = 50;
+  te.Second = 0;
+  te.Day = 20; 
+  te.Month = 4; 
+  te.Year = CalendarYrToTm(2016); 
+  RTC.write(te);
+}
 ```
 ## Схема
 ![Здесь должна быть схема](https://github.com/tokelau/mobile_robots/blob/master/scheme.png)
