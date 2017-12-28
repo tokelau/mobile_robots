@@ -7,3 +7,4 @@
 #### [python1 - управление цветом](https://github.com/tokelau/mobile_robots/tree/master/python1)
 #### [python - управление освещением (5 уровней)](https://github.com/tokelau/mobile_robots/tree/master/python)
 #### [calibration - калибровка датчиков освещения](https://github.com/tokelau/mobile_robots/tree/master/calibration)
+#### [Жук](https://github.com/tokelau/mobile_robots/tree/master/Source)
